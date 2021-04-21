@@ -1,7 +1,11 @@
+/// Memoworks is a workshop for using the encrypted memo field.
 fn package_memo(s: String) -> String {
     s
 }
 
+/** In the tests, there are several expressions that print to `stdout`. However, `stdout` is
+supressed by default. To see this information run `cargo test -- --nocapture`.
+These messages provide an introduction to the memo field specification.*/
 #[cfg(test)]
 mod unit {
     use super::*;
